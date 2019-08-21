@@ -234,7 +234,9 @@
           });
           window.addEventListener("testPassive", null, opts);
           window.removeEventListener("testPassive", null, opts);
-        } catch (e) {}
+        } catch (e) {
+            alert("error");
+        }
 
         //timeouts
         var resizeId;
@@ -2946,7 +2948,7 @@
                     window.history.replaceState(undefined, undefined, '#' + url);
                 }else{
                     var baseUrl = window.location.href.split('#')[0];
-                    window.location.replace( baseUrl + '#' + url );
+                    //window.location.replace( baseUrl + '#' + url );
                 }
             }
         }
