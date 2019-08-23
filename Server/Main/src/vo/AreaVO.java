@@ -3,34 +3,68 @@ package vo;
 public class AreaVO {
     private int sigungucode;
     private int contentid;
-
-    public int getSigungucode() {
-        return sigungucode;
-    }
-
-    public void setSigungucode(int sigungucode) {
-        this.sigungucode = sigungucode;
-    }
-
     private String addr;
     private String title;
     private String firstimage;
     private String firstimage2;
 
-    public int getContentid() { return contentid; }
+    public int getSigungucode() {
+        int object = 0;
+        object = sigungucode;
+        return object;
+    }
 
-    public String getAddr() { return addr; }
-    public String getTitle() { return title; }
+    public void setSigungucode(int sigungucode) {
+        if (sigungucode != 0) this.sigungucode = sigungucode;
+    }
 
-    public String getFirstimage() { return firstimage; }
-    public String getFirstimage2() { return firstimage2; }
+    public int getContentid() {
+        int object = 0;
+        object = contentid;
+        return object;
+    }
 
-    public void setContentid(int contentid) { this.contentid = contentid; }
+    public void setContentid(int contentid) {
+        if (contentid != 0) this.contentid = contentid;
+    }
 
-    public void setAddr(String addr) { this.addr = addr; }
-    public void setTitle(String title) { this.title = title; }
+    public String getAddr() {
+        String object = null;
+        object = addr;
+        return object;
+    }
 
-    public void setFirstimage(String firstimage) { this.firstimage = firstimage; }
-    public void setFirstimage2(String firstimage2) { this.firstimage2 = firstimage2; }
+    public void setAddr(String addr) {
+        if (addr != null) this.addr = addr;
+    }
 
+    public String getTitle() {
+        String object = null;
+        object = title;
+        return object;
+    }
+
+    public void setTitle(String title) {
+        if (title != null) this.title = title;
+    }
+
+    public String getFirstimage() {
+        String object = null;
+        object = firstimage;
+        return object;
+    }
+
+    public void setFirstimage(String firstimage) {
+        if (firstimage != null) this.firstimage = firstimage;
+    }
+
+    public String getFirstimage2() {
+        String object = null;
+        object = firstimage2;
+        return object;
+    }
+
+    public void setFirstimage2(String firstimage2) {
+        if (firstimage2 != null) this.firstimage2 = firstimage2;
+    }
 }

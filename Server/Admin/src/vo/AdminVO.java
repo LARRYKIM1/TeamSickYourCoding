@@ -7,20 +7,53 @@ public class AdminVO {
     private String des;
     private String time;
 
-    public String getType() {return type;}
-    public void setType(String type) {this.type = type;}
-    public String getDes() {return des;}
-    public void setDes(String des) {this.des = des;}
-    public String getTime() {return time;}
-    public void setTime(String time) {this.time = time; }
-    public String getPasswd(){
-        return passwd;
+    public String getPasswd() {
+        String object = null;
+        object = passwd;
+        return object;
     }
-    public void setPasswd(String passwd){ this.passwd = passwd;  }
-    public String getMail(){
-        return mail;
+
+    public void setPasswd(String passwd) {
+        if (passwd != null) this.passwd = passwd;
     }
-    public void setMail(String mail){
-        this.mail = mail;
+
+    public String getMail() {
+        String object = null;
+        object = mail;
+        return object;
+    }
+
+    public void setMail(String mail) {
+        if (mail != null) this.mail = mail;
+    }
+
+    public String getType() {
+        String object = null;
+        object = type;
+        return object;
+    }
+
+    public void setType(String type) {
+        if (type != null) this.type = type;
+    }
+
+    public String getDes() {
+        String object = null;
+        object = des;
+        return object;
+    }
+
+    public void setDes(String des) {
+        if (des != null) this.des = des;
+    }
+
+    public String getTime() {
+        String object = null;
+        object = time;
+        return object;
+    }
+
+    public void setTime(String time) {
+        if (time != null) this.time = time;
     }
 }
