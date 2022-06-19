@@ -1,6 +1,6 @@
 # TeamSickYourCoding
 
-소개딩 해커톤 프로젝트 - 공공데이터를 이용한 관광지 앱 개발 #장관상수상 #Android #TTS #OpenAPI #SecureCoding
+소개딩 해커톤 프로젝트 - 공공데이터를 이용한 관광 도우미 앱 개발 #장관상수상 #Android #TTS #OpenAPI #SecureCoding
 
 ## 프로젝트명 
 
