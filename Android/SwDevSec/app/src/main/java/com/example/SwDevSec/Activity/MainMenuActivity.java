@@ -10,11 +10,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.SwDevSec.R;
 
 public class MainMenuActivity extends AppCompatActivity {
-    Button sightseeingButton;
-    Button eventButton;
-    Button restaurantButton;
-    Button favoriteButton;
-    String language;
+    private Button sightseeingButton;
+    private Button eventButton;
+    private Button restaurantButton;
+    private Button favoriteButton;
+    private String language;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
